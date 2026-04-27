@@ -1,1 +1,1 @@
-{"type":"module","dependencies":{"stripe":"latest"},"engines":{"node":">=20"}}
+{"type":"commonjs","scripts":{"dev":"vercel dev","start":"vercel dev"},"dependencies":{"@hubspot/api-client":"latest","stripe":"latest"},"devDependencies":{"vercel":"latest"},"engines":{"node":">=20"}}
