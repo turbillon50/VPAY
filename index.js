@@ -1,4 +1,4 @@
-module.exports = (req, res) => {
+export default function handler(req, res) {
   res.status(200).json({
     name: 'V-Pay Stripe Lab',
     status: 'ready',
@@ -8,4 +8,4 @@ module.exports = (req, res) => {
       '/api/stripe/balance'
     ]
   });
-};
+}
